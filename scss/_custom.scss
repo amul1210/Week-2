@@ -1,0 +1,39 @@
+body {
+	background-color: #c8cacc;
+}
+
+.logo-img {
+height: 60px;
+}
+
+.navbar-toggler {
+	border: 5px solid;
+	border-color: white;
+}
+
+.card-columns {
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+form{
+	width: 50%;
+	margin: auto;
+}
+
+.Feedback {
+	text-align: center;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: auto;
+}
+
+#collapseExample {
+	color: black;
+}
+	
