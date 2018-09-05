@@ -5,6 +5,10 @@ $color-gray: #c8cacc;
 	margin: auto;
 }
 
+@mixin textcenter {
+	text-align: center;
+}
+
 body { background-color: $color-gray; }
 
 .logo-img {
@@ -36,14 +40,14 @@ form{
 	@include marg;
 }
 
-.Feedback {
-	text-align: center;
+h3 {
+	@include textcenter;
 }
 
 .footer {
 	display: flex;
 	flex-direction: column;
-	text-align: center;
+	@include textcenter;
 	@include marg;
 }
 
