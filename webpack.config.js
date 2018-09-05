@@ -9,6 +9,19 @@ module.exports = {
   },
   module: {
     rules: [
+
+    	{
+        test: /\.(png|jpg|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+            	name: '[path][name].[ext]',
+    			context: ''
+            }
+          }
+        ]
+      },
       {
         test: /\.(scss)$/,
         use: [{
@@ -31,6 +44,7 @@ module.exports = {
       }
     ]
   },
+
   plugins: [
     new HtmlWebpackPlugin({
       template: './index.html',

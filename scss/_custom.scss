@@ -1,6 +1,11 @@
-body {
-	background-color: #c8cacc;
+$color-red: #FF0000;
+$color-gray: #c8cacc;
+
+@mixin marg {
+	margin: auto;
 }
+
+body { background-color: $color-gray; }
 
 .logo-img {
 height: 60px;
@@ -13,13 +18,22 @@ height: 60px;
 
 .card-columns {
 	width: 80%;
-	margin: auto;
+	@include marg;
 	margin-top: 20px;
+}
+
+blockquote {
+	footer {
+		small {
+			cite{ color: $color-red;
+			}
+		}
+	}
 }
 
 form{
 	width: 50%;
-	margin: auto;
+	@include marg;
 }
 
 .Feedback {
@@ -30,10 +44,8 @@ form{
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	margin: auto;
+	@include marg;
 }
 
-#collapseExample {
-	color: black;
-}
-	
+#collapse1 { color: $color-red; }
+
