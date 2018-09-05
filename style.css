@@ -33,3 +33,58 @@ form{
 	margin: auto;
 }
 	
+$color-red: #FF0000;
+$color-gray: #c8cacc;
+
+@mixin marg {
+	margin: auto;
+}
+
+@mixin textcenter {
+	text-align: center;
+}
+
+body { background-color: $color-gray; }
+
+.logo-img {
+height: 60px;
+}
+
+.navbar-toggler {
+	border: 5px solid;
+	border-color: white;
+}
+
+.card-columns {
+	width: 80%;
+	@include marg;
+	margin-top: 20px;
+}
+
+blockquote {
+	footer {
+		small {
+			cite{ color: $color-red;
+			}
+		}
+	}
+}
+
+form{
+	width: 50%;
+	@include marg;
+}
+
+h3 {
+	@include textcenter;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	@include textcenter;
+	@include marg;
+}
+
+#collapse1 { color: $color-red; }
+
