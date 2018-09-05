@@ -86,6 +86,83 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./img/butter.jpg":
+/*!************************!*\
+  !*** ./img/butter.jpg ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/butter.jpg\";\n\n//# sourceURL=webpack:///./img/butter.jpg?");
+
+/***/ }),
+
+/***/ "./img/cover1.jpg":
+/*!************************!*\
+  !*** ./img/cover1.jpg ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/cover1.jpg\";\n\n//# sourceURL=webpack:///./img/cover1.jpg?");
+
+/***/ }),
+
+/***/ "./img/cover2.jpg":
+/*!************************!*\
+  !*** ./img/cover2.jpg ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/cover2.jpg\";\n\n//# sourceURL=webpack:///./img/cover2.jpg?");
+
+/***/ }),
+
+/***/ "./img/cover3.jpg":
+/*!************************!*\
+  !*** ./img/cover3.jpg ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/cover3.jpg\";\n\n//# sourceURL=webpack:///./img/cover3.jpg?");
+
+/***/ }),
+
+/***/ "./img/flavoured-milk.png":
+/*!********************************!*\
+  !*** ./img/flavoured-milk.png ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/flavoured-milk.png\";\n\n//# sourceURL=webpack:///./img/flavoured-milk.png?");
+
+/***/ }),
+
+/***/ "./img/logo.png":
+/*!**********************!*\
+  !*** ./img/logo.png ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/logo.png\";\n\n//# sourceURL=webpack:///./img/logo.png?");
+
+/***/ }),
+
+/***/ "./img/shrikhand.jpg":
+/*!***************************!*\
+  !*** ./img/shrikhand.jpg ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/shrikhand.jpg\";\n\n//# sourceURL=webpack:///./img/shrikhand.jpg?");
+
+/***/ }),
+
 /***/ "./index.js":
 /*!******************!*\
   !*** ./index.js ***!
@@ -94,7 +171,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/index.scss */ \"./scss/index.scss\");\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_index_scss__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n\n//# sourceURL=webpack:///./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/index.scss */ \"./scss/index.scss\");\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_index_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _img_butter_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/butter.jpg */ \"./img/butter.jpg\");\n/* harmony import */ var _img_butter_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_img_butter_jpg__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _img_cover1_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/cover1.jpg */ \"./img/cover1.jpg\");\n/* harmony import */ var _img_cover1_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_img_cover1_jpg__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _img_cover2_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/cover2.jpg */ \"./img/cover2.jpg\");\n/* harmony import */ var _img_cover2_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_img_cover2_jpg__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _img_cover3_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./img/cover3.jpg */ \"./img/cover3.jpg\");\n/* harmony import */ var _img_cover3_jpg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_img_cover3_jpg__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _img_flavoured_milk_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./img/flavoured-milk.png */ \"./img/flavoured-milk.png\");\n/* harmony import */ var _img_flavoured_milk_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_img_flavoured_milk_png__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var _img_logo_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./img/logo.png */ \"./img/logo.png\");\n/* harmony import */ var _img_logo_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_img_logo_png__WEBPACK_IMPORTED_MODULE_7__);\n/* harmony import */ var _img_shrikhand_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./img/shrikhand.jpg */ \"./img/shrikhand.jpg\");\n/* harmony import */ var _img_shrikhand_jpg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_img_shrikhand_jpg__WEBPACK_IMPORTED_MODULE_8__);\n\n\n\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
