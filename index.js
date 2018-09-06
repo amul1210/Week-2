@@ -7,4 +7,3 @@ import './img/cover3.jpg';
 import './img/flavoured-milk.png';
 import './img/logo.png';
 import './img/shrikhand.jpg';
-$('#pop').popover(options)
